@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Dashboard",
+        "isParent": true,
+        "url": "/",
+        "parentId": null,
+        "icon": "home",
+        "additional_class": null
+    },
+    {
+        "id": 2,
+        "name": "Medical Record",
+        "isParent": true,
+        "url": "/medical-record",
+        "parentId": null,
+        "icon": "medical",
+        "additional_class": null
+    },
+    {
+        "id": 3,
+        "name": "Admission",
+        "isParent": true,
+        "url": "/admission",
+        "parentId": null,
+        "icon": "circle",
+        "additional_class": null
+    },
+    {
+        "id": 4,
+        "name": "Reg | Rawat Jalan",
+        "isParent": false,
+        "url": "/admission/reg-rajal",
+        "parentId": 3,
+        "icon": "circle",
+        "additional_class": "bg-gray-100 rounded-full my-1 mx-2 hover:bg-gray-800 dark:hover:bg-gray-700"
+    },
+    {
+        "id": 5,
+        "name": "Reg | Rawat Inap",
+        "isParent": false,
+        "url": "/admission/reg-ranap",
+        "parentId": 3,
+        "icon": "circle",
+        "additional_class": "bg-gray-100 rounded-full my-1 mx-2 hover:bg-gray-800 dark:hover:bg-gray-700"
+    },
+    {
+        "id": 6,
+        "name": "Check Pasien Ranap",
+        "isParent": false,
+        "url": "/admission/reg-ranap",
+        "parentId": 5,
+        "icon": "circle",
+        "additional_class": "bg-gray-100 rounded-full my-1 mx-2 hover:bg-gray-800 dark:hover:bg-gray-700"
+    }
+]
