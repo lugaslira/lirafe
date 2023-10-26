@@ -10,7 +10,7 @@ const mainModul = getModulParent_static();
     <ul class="space-y-2 font-medium">
         {
             mainModul.map((parent) => (
-                <ChildModul modul={parent}></ChildModul>
+                <ChildModul modul={parent} client:idle></ChildModul>
             ))
         }
     </ul>
